@@ -1,0 +1,40 @@
+body {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Very-mostly-black-blue: hsl(234, 17%, 12%);
+  --grayish-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+}
+.wave {
+  position: absolute;
+}
+.container {
+  /* margin: 1em auto; */
+}
+h3 {
+  font-size: 30px;
+}
+.first {
+  margin-left: 1.5em;
+}
+#hero {
+  width: 15%;
+  padding: 8px;
+}
+#submit {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #00cba9;
+  color: #ffffff;
+  font-size: 15px;
+}
